@@ -1,0 +1,102 @@
+* {
+  font-family: 'Libre Baskerville', serif;
+  color: white
+
+}
+#titre {
+  font-size:50px;
+  color: white
+}
+  body {
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #191919;
+}
+
+table, th, td {
+  text-align: left;
+     border: 1px solid #444;
+}
+ tr:nth-child(even) {background-color: #121212;}
+table {
+
+  width: 100%;
+  /* position: relative; */
+    border-collapse: collapse;
+    table-layout: fixed;
+    overflow-x: hidden;
+
+  /* display: block;
+  table-layout: fixed; */
+}
+td {
+     padding: 5px;
+         height:20px;
+         max-height: 10px;
+         /* background: rgb(61,15,92);
+         background: linear-gradient(-45deg, rgba(61,15,92,.2) 0%, rgba(19,19,19,1) 100%); */
+}
+
+
+
+th {
+  text-align: center;
+  top: 0;
+  background-color: #191919;
+      max-height:20px;
+
+      position: sticky;
+}
+th:hover {
+  cursor: pointer;
+}
+
+div {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    z-index: 0;
+
+  }
+
+  div:hover {
+  z-index: 1;
+  width: auto;
+  background-color: #f2C5ff;
+  padding-right: 10px;
+  /* text-decoration-style: dotted;
+  text-decoration: underline;
+  text-decoration-thickness: .5px; */
+  color: #191919;
+  cursor: pointer;
+  font-size: 48px;
+}
+.author {
+  width: 200px;
+}
+.date {
+  width: 100px;
+}
+.theme {
+  width: 130px;
+}
+.wcount {width: 60px;
+  text-align: center;
+}
+.city {
+  width:300px;
+}
+th {
+  font-size: 10px;
+  background-color: #191919;
+  z-index: 10;
+}
+/* .tableCtn {
+  overflow-y: scroll;
+  height: 90vh;
+} */
